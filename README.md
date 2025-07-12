@@ -56,3 +56,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 # Datathon
+
+executar esse comando para realizar o bentoml build
+bentoml build --platform x86_64-manylinux_2_28
