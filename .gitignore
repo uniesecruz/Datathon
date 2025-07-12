@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode
+.vscode/
+
+# BentoML
+bento/
+bento.yaml
+.bento/
+
+# Modelos e artefatos
+models/
+mlruns/
+*.npy
+*.csv
+*.h5
+*.pt
+*.ckpt
+*.onnx
+
+# Ambiente virtual
+venv/
+datathon_venv/
+.env
+.env.*
+
+# Dados
+/data/
+!data/processed/
+!data/raw/
+
+# Outros
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Relatórios
+reports/
+
+# Build
+build/
+dist/
+
+# Sphinx docs
+/docs/_build/
+
+# Cookiecutter
+cookiecutter-data-science/
+
+# Testes
+*.coverage
+.coverage
+htmlcov/
+
+# BentoML build
+bentofile.yaml
