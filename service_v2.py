@@ -105,7 +105,7 @@ class RAGRecrutamentoService:
             mon.log(respostas_list, name="response", role="prediction", data_type="list")
             return respostas_list
 
-    @bentoml.api(input_spec=None, route="/info")
+    @bentoml.api(input_spec=None, route="/info" )
     def info(self) -> Dict:
         """
         Endpoint que retorna os metadados sobre o modelo em produção.

@@ -12,7 +12,7 @@ class Register:
         import numpy as np
         from rouge_score import rouge_scorer
         from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
-        input_example = pd.DataFrame({'pergunta': ['Quais competências técnicas são mais valorizadas para a vaga Java?']})
+        input_example = pd.DataFrame({'pergunta': ['Quais competências técnicas são mais valorizadas para a vaga de Python?']})
         mlflow.set_experiment(self.title)
         pergunta = input_example['pergunta'][0]
         resposta = None
