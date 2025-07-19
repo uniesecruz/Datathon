@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard RAG_Recrutamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dashboard de Monitoramento - RAG_Recrutamento</h1>
+    <div id="metrics">
+        <button onclick="loadData()">Carregar Dados</button>
+        <table id="logTable">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Input</th>
+                    <th>Output</th>
+                    <th>Latency (ms)</th>
+                    <th>ROUGE-1</th>
+                    <th>BLEU</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
