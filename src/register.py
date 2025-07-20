@@ -79,3 +79,4 @@ if __name__ == "__main__":
     run_id, model_uri = reg.log_rag_model()
     print(f"Modelo logado em run_id: {run_id}, uri: {model_uri}")
     reg.register_model(run_id)
+#
