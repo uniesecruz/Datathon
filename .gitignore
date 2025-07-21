@@ -65,5 +65,4 @@ cookiecutter-data-science/
 .coverage
 htmlcov/
 
-# BentoML build
-bentofile.yaml
+
