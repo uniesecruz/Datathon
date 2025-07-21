@@ -6,7 +6,7 @@ import bentoml
 import mlflow
 import pandas as pd
 import tempfile
-
+#
 # Configure o URI de tracking do MLflow.
 mlflow.set_tracking_uri("file:///C:/Users/win/Desktop/Projetos/Datathon/llm/src/mlruns")
 

@@ -18,7 +18,6 @@ __pycache__/
 
 # BentoML
 bento/
-bento.yaml
 .bento/
 
 # Modelos e artefatos
